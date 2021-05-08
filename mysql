@@ -1,0 +1,7 @@
+CREATE TABLE IF NOT EXISTS `subjob_data`(
+   `data_id` INT UNSIGNED AUTO_INCREMENT,
+   `subjob_id` INT UNSIGNED,
+   `gpu_id` INT UNSIGNED,
+   `training_time` FLOAT UNSIGNED,
+   PRIMARY KEY ( `data_id` )
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
